@@ -71,7 +71,7 @@ Docker + docker-compose
 ## Quick Start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AIML-Internship-Week8-AdinaZafar.git
+git clone https://github.com/SP24-BSE-006/AIML-Internship-Week8-AdinaZafar.git
 cd AIML-Internship-Week8-AdinaZafar
 
 download `train.csv` from [kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data) and place it in `data/train.csv`.
