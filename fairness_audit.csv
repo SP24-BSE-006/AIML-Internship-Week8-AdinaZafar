@@ -1,0 +1,6 @@
+Group,N,Accuracy,Macro F1
+Sex=male,118,0.8475,0.6746
+Sex=female,61,0.8361,0.7227
+Pclass=1,45,0.7778,0.7777
+Pclass=2,34,0.9118,0.9098
+Pclass=3,100,0.85,0.7973
