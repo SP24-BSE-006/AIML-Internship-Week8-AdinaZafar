@@ -1,0 +1,15 @@
+# step 14 — streamlit dashboard image
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements-streamlit.txt .
+RUN pip install --no-cache-dir -r requirements-streamlit.txt
+
+COPY app/ ./app/
+COPY reports/ ./reports/
+COPY data/ ./data/
+
+EXPOSE 8501
+
+CMD ["streamlit", "run", "app/streamlit_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
